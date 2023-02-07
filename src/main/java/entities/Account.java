@@ -28,7 +28,7 @@ public class Account {
 
     public void deposit(double amount) {
         if (amount > 0) {
-            amount += amount * 0.02;
+            amount -= amount * 0.02;
             balance += amount;
         }
     }
